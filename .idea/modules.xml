@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/bkd.iml" filepath="$PROJECT_DIR$/.idea/bkd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bkd.iml" filepath="$PROJECT_DIR$/bkd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/bkd_android.iml" filepath="$PROJECT_DIR$/android/bkd_android.iml" />
     </modules>
   </component>
 </project>

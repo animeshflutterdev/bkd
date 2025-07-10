@@ -1,0 +1,172 @@
+class ColorConst {
+  static String baseHexColor = brand800;
+  static String green = success400;
+  static String green1 = "#A6F0DF";
+  static String green2 = "#FBFF26";
+  static String green3 = "#62FF16";
+  static String green4 = "#5DA849";
+  static String primaryDark = gray700;
+  static String primaryDark2 = primary100;
+  static String primaryDark3 = "#646464";
+  static String secondaryDark = gray500;
+  static String lightGrey = "#d9dadc";
+  static String lineGrey = gray100;
+  static String separatorGrey = gray200;
+  static String color4 = "#78819B";
+  static String color5 = "#9DADBC";
+  static String color6 = "#373A3F";
+  static String lightGreen = "#E8FFED";
+  static String lightBlue = "#3C8DD8";
+  static String deepBlue = "#0B3857";
+  static String grey = "#787474";
+  static String grey1 = "#8E8F91";
+  static String grey4 = "#cbd1db";
+  static String red = error400;
+  static String appBgColor = "#ececec";
+  static String appBgColor2 = "#F7F7F7";
+  static String blue = "#0089FF";
+  static String lightGreen2 = "#EBFFF6";
+  static String lightBlue1 = "#e7f3fe";
+  static String lightBlue2 = "#E9F6F6";
+  static String lightBlue3 = "#57AFD5";
+  static String lightBlueBG = "#EFF5F8";
+
+  static String shadowColor = "#E8E9EA";
+  static String shadowColor2 = "#2e2b38";
+  static String lightBlue4 = "#F0F9FF";
+  static String bluegrey = "#ccd2dd";
+  static String white = "#ffffff";
+  static String discount = "#FA8700";
+
+  // ------------------------------------ GRAY --------------------------------
+
+  static String gray25 = "#FCFCFD";
+  static String gray50 = "#F9FAFB";
+  static String gray100 = "#F2F4F7";
+  static String gray200 = "#E4E7EC";
+  static String gray300 = "#D0D5DD";
+  static String gray400 = "#98A2B3";
+  static String gray500 = "#667085";
+  static String gray600 = "#475467";
+  static String gray700 = "#344054";
+  static String gray800 = "#1D2939";
+
+// -------------------------------- BLUE(brand) -------------------------------
+
+  static String brand25 = "#F1F9FE";
+  static String brand50 = "#E0F3FD";
+  static String brand100 = "#B1E1FA";
+  static String brand200 = "#7DCDF7";
+  static String brand300 = "#49BAF2";
+  static String brand400 = "#21ACF0";
+  static String brand500 = "#009DEC";
+  static String brand600 = "#0090DD";
+  static String brand700 = "#007DC9";
+  static String brand800 = "#006DB5";
+
+// -------------------------------- RED(Error) -------------------------------
+
+  static String error25 = "#FFFBFA";
+  static String error50 = "#FEF3F2";
+  static String error100 = "#FEE4E2";
+  static String error200 = "#FECDCA";
+  static String error300 = "#FDA29B";
+  static String error400 = "#F97066";
+  static String error500 = "#F04438";
+  static String error600 = "#D92D20";
+  static String error700 = "#B42318";
+  static String error800 = "#912018";
+
+// -------------------------------- Yellow(warning) --------------------------
+
+  static String warning25 = "#FFFCF5";
+  static String warning50 = "#FFFAEB";
+  static String warning100 = "#FEF0C7";
+  static String warning200 = "#FEDF89";
+  static String warning300 = "#FEC84B";
+  static String warning400 = "#FDB022";
+  static String warning500 = "#F79009";
+  static String warning600 = "#DC6803";
+  static String warning700 = "#B54708";
+  static String warning800 = "#93370D";
+
+// -------------------------------- Green(Success) --------------------------
+
+  static String success25 = "#F6FEF9";
+  static String success50 = "#ECFDF3";
+  static String success100 = "#D1FADF";
+  static String success200 = "#A6F4C5";
+  static String success300 = "#6CE9A6";
+  static String success400 = "#32D583";
+  static String success500 = "#12B76A";
+  static String success600 = "#039855";
+  static String success700 = "#027A48";
+  static String success800 = "#05603A";
+
+// -------------------------------- Orange(Complimentary) --------------------------
+
+  static String complimentary25 = "#FDF8F6";
+  static String complimentary50 = "#FAEAE6";
+  static String complimentary100 = "#FCCFBA";
+  static String complimentary200 = "#F9B18E";
+  static String complimentary300 = "#F79360";
+  static String complimentary400 = "#F57D3B";
+  static String complimentary500 = "#F46A12";
+  static String complimentary600 = "#E9640D";
+  static String complimentary700 = "#DB5C07";
+  static String complimentary800 = "#CE5505";
+
+// --------------------------------- accent 1accent 1 (GREEN -shades) --------------------------
+  static String accent100 = "#007F22";
+  static String accent90 = "#1A8C38";
+  static String accent80 = "#33994E";
+  static String accent70 = "#4DA564";
+  static String accent60 = "#66B27A";
+  static String accent50 = "#7FBF90";
+  static String accent40 = "#99CCA7";
+  static String accent30 = "#B2D9BD";
+  static String accent20 = "#CCE5D3";
+  static String accent10 = "#E5F2E9";
+
+// --------------------------------- primary (BLUE -shades) --------------------------
+  static String primary100 = "#0065B3";
+  static String primary90 = "#1A74BB";
+  static String primary80 = "#3384C2";
+  static String primary70 = "#4D93CA";
+  static String primary60 = "#66A3D1";
+  static String primary50 = "#7FB2D9";
+  static String primary40 = "#99C1E1";
+  static String primary30 = "#B2D1E8";
+  static String primary20 = "#CCE0F0";
+  static String primary10 = "#E5F0F7";
+
+// --------------------------------- accent 2 (BLACK/GREY -shades) --------------------------
+  static String accent_2_100 = "#000000";
+  static String accent_2_90 = "#1A1A1A";
+  static String accent_2_80 = "#333333";
+  static String accent_2_70 = "#4D4D4D";
+  static String accent_2_60 = "#666666";
+  static String accent_2_50 = "#7F7F7F";
+  static String accent_2_40 = "#999999";
+  static String accent_2_30 = "#B3B3B3";
+  static String accent_2_20 = "#CCCCCC";
+  static String accent_2_10 = "#E6E6E6";
+
+// --------------------------------- secondary (RED -shades) --------------------------
+  static String secondary_100 = "#ED1B24";
+  static String secondary_90 = "#EF323A";
+  static String secondary_80 = "#F14950";
+  static String secondary_70 = "#F25F66";
+  static String secondary_60 = "#F4767C";
+  static String secondary_50 = "#F68D91";
+  static String secondary_40 = "#F8A4A7";
+  static String secondary_30 = "#FABBBD";
+  static String secondary_20 = "#FBD1D3";
+  static String secondary_10 = "#FDE8E9";
+
+// --------------------------------- shade (BLUE - shades) --------------------------
+  static String shade_100 = "#0065B3";
+  static String shade_90 = "#004C99";
+  static String shade_80 = "#003280";
+  static String shade_70 = "#001967";
+}
