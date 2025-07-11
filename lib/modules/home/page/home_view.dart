@@ -14,8 +14,15 @@ import '../../../utils/constants/color_const.dart';
 import '../../../utils/constants/hex_color.dart';
 import '../widgets/product_card.dart';
 
-class HomeView extends StatelessWidget {
+class HomeView extends StatefulWidget {
   const HomeView({super.key});
+
+  @override
+  State<HomeView> createState() => _HomeViewState();
+}
+
+class _HomeViewState extends State<HomeView> {
+  ScrollController scrollController = ScrollController();
 
   @override
   Widget build(BuildContext context) {
@@ -25,6 +32,7 @@ class HomeView extends StatelessWidget {
         builder: (context, state) {
           return SafeArea(
             child: SingleChildScrollView(
+              controller: scrollController,
                 physics: const BouncingScrollPhysics(),
               child: Column(children: state.widgetList.value??[])
               /*Column(

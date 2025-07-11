@@ -3,21 +3,6 @@ class TempApiData {
     {
   "data": [
     {
-      "is_show": "1",
-      "results": [
-        {
-          "title": "Statutory Information Update",
-          "desc": "Your DL has been Rejected.Please resubmit the documents again.",
-          "actionUrl": "https://www.retailershakti.com/myaccount"
-        }
-      ],
-      "imageUrl": "",
-      "title": "",
-      "view_type": "profile_info",
-      "sub_view_type": "expiry_info",
-      "msgcode": 1
-    },
-    {
       "view_type": "banner_auto_scroll_carousel",
       "sub_view_type": "top_banner_list",
       "msgcode": 1,
@@ -195,6 +180,36 @@ class TempApiData {
       ],
       "count": 1,
       "today": "2024-12-20T00:00:17.854Z"
+    },
+    {
+      "is_show": "1",
+      "results": [
+        {
+          "title": "Statutory Information Update",
+          "desc": "Your DL has been Rejected.Please resubmit the documents again.",
+          "actionUrl": "https://www.retailershakti.com/myaccount"
+        }
+      ],
+      "imageUrl": "",
+      "title": "",
+      "view_type": "profile_info",
+      "sub_view_type": "expiry_info",
+      "msgcode": 1
+    },
+    {
+      "is_show": "1",
+      "results": [
+        {
+          "title": "Information",
+          "desc": "Dear Sir/Madam, Your Trade License had expired on 30-04-2024 , Please update immediately.",
+          "actionUrl": "https://www.retailershakti.com/myaccount"
+        }
+      ],
+      "imageUrl": "",
+      "title": "",
+      "view_type": "profile_info",
+      "sub_view_type": "expiry_info",
+      "msgcode": 1
     },
     {
       "view_type": "shop_by_categories",
@@ -464,22 +479,8 @@ class TempApiData {
           ]
         }
       ]
-    },
-    {
-      "is_show": "1",
-      "results": [
-        {
-          "title": "Information",
-          "desc": "Dear Sir/Madam, Your Trade License had expired on 30-04-2024 , Please update immediately.",
-          "actionUrl": "https://www.retailershakti.com/myaccount"
-        }
-      ],
-      "imageUrl": "",
-      "title": "",
-      "view_type": "profile_info",
-      "sub_view_type": "expiry_info",
-      "msgcode": 1
     }
   ]
-}''';
+}
+    ''';
 }
