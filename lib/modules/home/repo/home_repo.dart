@@ -6,12 +6,11 @@ class HomeRepo {
   // This class can be used to manage home-related data and operations.
 
   // Fetch home data from API
-  Future<HomePageResponse> fetchHomeData({
+  Future<HomePageResponse?> fetchHomeData({
     int? pageNo,
     int? recordPerPage,
     Map<String, String>? headers,
   }) async {
-    // Build query parameters if provided
     String endpoint = '/home';
     List<String> queryParams = [];
     if (pageNo != null) queryParams.add('pageNo=$pageNo');
@@ -22,7 +21,7 @@ class HomeRepo {
     // final response = await ApiService.get(endpoint, headers: headers);
     const tempResp = TempApiData.SDUIResponse;
     final data = json.decode(tempResp);
-    final resp = HomePageResponse.fromJson(data);
-    return resp;
+    HomePageResponse? homePageData = HomePageResponse.fromJson(data);
+    return homePageData;
   }
 }

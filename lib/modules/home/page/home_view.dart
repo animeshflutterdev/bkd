@@ -20,17 +20,14 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => HomeBloc()..add(InitHome()),
+      create: (context) => HomeBloc()..add(GetData()),
       child: BlocBuilder<HomeBloc, HomeState>(
         builder: (context, state) {
-          // Precompute data for UI
-          final profileInfo = state.homePageResponse.value?.profileInfoSection;
-          final bannerSection = state.homePageResponse.value?.bannerSection;
-          final banners = bannerSection?.bannerResults ?? [];
-
           return SafeArea(
             child: SingleChildScrollView(
-              child: Column(
+                physics: const BouncingScrollPhysics(),
+              child: Column(children: state.widgetList.value??[])
+              /*Column(
                 children: [
                   12.ph,
                   // Custom App Bar
@@ -141,43 +138,8 @@ class HomeView extends StatelessWidget {
                     ),
                   ),
                   12.ph,
-/*                  Center(
-                      child: CustomTextEnum('Popular RSPL 5yrs Planning SDUI',
-                              color: Colors.red)
-                          .textBoldMD()),
-                  12.ph,
-
-                  // Info card titles (show all infoResults)
-                  if (profileInfo != null && profileInfo.infoResults.isNotEmpty)
-                    Column(
-                      children: profileInfo.infoResults
-                          .map((info) => CustomTextEnum(info.title ?? "").textSM())
-                          .toList(),
-                    )
-                  else
-                    CustomTextEnum("Vag ***").textSM(),
-
-                  // Banner carousel
-                  if (banners.isNotEmpty)
-                    SizedBox(
-                      height: 180,
-                      child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        itemCount: banners.length,
-                        itemBuilder: (context, i) {
-                          final banner = banners[i];
-                          return Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: CustomNetWorkImageView(
-                              url: banner.webImageUrl ?? '',
-                              fit: BoxFit.cover,
-                            ),
-                          );
-                        },
-                      ),
-                    ),*/
                 ],
-              ),
+              ),*/
             ),
           );
         },
