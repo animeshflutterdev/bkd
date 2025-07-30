@@ -1,3 +1,4 @@
+import 'package:bkd/services/flavors/flavors.dart';
 import 'package:flutter/material.dart';
 import 'utils/screens/main_scaffold.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My App',
+      title: F.title,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),

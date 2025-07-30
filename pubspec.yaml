@@ -44,11 +44,11 @@ dependencies:
   encrypt:
   package_info_plus: ^8.0.2
   flutter_udid: ^4.0.0
-  device_info_plus: ^11.3.3
+  device_info_plus:
 
   # Location
-  geolocator:
-  geocoding: ^3.0.0
+#  geolocator: ^14.0.2
+#  geocoding: ^4.0.0
 
   # State Management
   equatable: ^2.0.5
@@ -57,7 +57,7 @@ dependencies:
 
   # Update
   in_app_update: ^4.2.3
-  new_version_plus: ^0.1.0
+  new_version_plus:
 
   flutter_exit_app: ^1.1.4
 
@@ -75,13 +75,14 @@ dependencies:
   file_picker:
   image_picker:
   flutter_image_compress:
-  
-  lottie: ^3.3.1
+  lottie:
   connectivity_plus: ^6.1.4
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_flavorizr:
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

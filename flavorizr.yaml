@@ -1,0 +1,36 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+
+flavors:
+  prod:
+    app:
+      name: "BKD"
+    android:
+      applicationId: "com.example.bkd"
+#    ios:
+#      bundleId: "com.example.bkd"
+#    macos:
+#      bundleId: "com.example.bkd"
+
+  stg:
+    app:
+      name: "Stg BKD"
+    android:
+      applicationId: "com.example.bkd.stg"
+#    ios:
+#      bundleId: "com.example.bkd.stg"
+#    macos:
+#      bundleId: "com.example.bkd.stg"
+      
+  dev:
+    app:
+      name: "Dev BKD"
+    android:
+      applicationId: "com.example.bkd.dev"
+#    ios:
+#      bundleId: "com.example.bkd.dev"
+#    macos:
+#      bundleId: "com.example.bkd.dev"
+
+ide: idea
